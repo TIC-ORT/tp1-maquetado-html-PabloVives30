@@ -60,6 +60,7 @@ body{
 
 .main-container{
     margin-top: 50px;
+    margin-bottom: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -163,4 +164,44 @@ body{
 
 .span-right{
     margin-left: 45px;
+}
+
+.section-container-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+.section-images-left{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.figure-images{
+    margin: 15px;
+    height: 175px;
+    width: 175px;
+    background-color: #333;
+}
+
+.section-images-right{
+    width: 50%;
+    display: flex   ;
+    justify-content: center;
+}
+
+.figure-image-big{
+    width: 200px;
+    height: 200px;
+    background-color: #333;
+}
+
+.figure-images-right{
+    margin: 15px;
+    height: 175px;
+    width: 175px;
+    background-color: #333;
 }
