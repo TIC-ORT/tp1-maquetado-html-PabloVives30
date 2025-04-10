@@ -168,15 +168,16 @@ body{
 
 .section-container-images{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: auto;
+
 }
 
 .section-images-left{
     width: 50%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: center;
 }
 
@@ -189,13 +190,13 @@ body{
 
 .section-images-right{
     width: 50%;
-    display: flex   ;
+    display: flex;
     justify-content: center;
 }
 
 .figure-image-big{
-    width: 200px;
-    height: 200px;
+    width: 380px;
+    height: 380px;
     background-color: #333;
 }
 
@@ -204,4 +205,18 @@ body{
     height: 175px;
     width: 175px;
     background-color: #333;
+}
+
+.container-imageBig{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-imagesRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
